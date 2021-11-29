@@ -145,7 +145,7 @@ if __name__ == '__main__':
     # Save the command run
     if not os.path.isdir('CMDs'):
         os.mkdir('CMDs')
-    with open('CMDs/upper_bound_saliency_attack.cmd', 'a') as f:
+    with open('CMDs/generate_adv_examples.cmd', 'a') as f:
         f.write(' '.join(sys.argv)+'\n')
 
     nltk.download('wordnet')
