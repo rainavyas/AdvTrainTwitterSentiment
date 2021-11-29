@@ -29,10 +29,10 @@ _python ./train.py adversarial_examples_dir electra_trained.th electra --B=8 --l
 
 # Experimental Results
 
-| Model Architecture | Test Accuracy (%) |
+| Training | Test Accuracy (%) |
 | ----------------- | :-----------------: |
-Without Adversarial Training + classification head | 93.3 |
-With Adversarial Training + classification head | - |
+Without Adversarial Training| 93.3 |
+With Adversarial Training | - |
 
 
 ### Training Details
