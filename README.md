@@ -34,7 +34,7 @@ _python ./adv_train.py adversarial_examples_dir electra_trained.th electra --B=8
 | Training | Test Accuracy (%) |
 | ----------------- | :-----------------: |
 Without Adversarial Training| 93.3 |
-With Adversarial Training | - |
+With Adversarial Training | 91.1 |
 
 
 ### Training Details
