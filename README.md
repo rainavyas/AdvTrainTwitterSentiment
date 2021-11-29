@@ -43,3 +43,4 @@ With Adversarial Training | - |
 - Batch Size = 8
 - Epochs = 2
 - Learning Rate = 1e-5
+- 6 adversarial examples per data point, using N={1,2,3,4,5,6} substitutions
