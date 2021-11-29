@@ -151,7 +151,7 @@ if __name__ == '__main__':
     nltk.download('wordnet')
 
     # Load the model
-    model = ElectraSequenceClassifier()
+    model = ElectraSequenceClassifier(classes=8) # Actually 6 classes, but trained accidentally with 8 classes
     model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     model.eval()
 
