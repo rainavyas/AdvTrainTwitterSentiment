@@ -11,7 +11,7 @@ import nltk
 from nltk.corpus import wordnet as wn
 from layer_handler import Electra_Layer_Handler
 from models import ElectraSequenceClassifier
-from data_prep_sentences import get_test
+from data_prep_sentences import get_train
 import json
 from transformers import ElectraTokenizer
 import sys
@@ -168,7 +168,7 @@ if __name__ == '__main__':
         os.mkdir(dir_name)
 
     # Get all data
-    tweets_list, labels = get_test('electra', data_path)
+    tweets_list, labels = get_train('electra', data_path)
 
     for ind in range(start_ind, end_ind):
 
